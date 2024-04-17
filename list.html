@@ -1,0 +1,154 @@
+<!-- DEVELOPER: Jolie Saleb, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Filmaniac</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Filmaniac</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+<link href="css/lists.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <a class="navbar-brand" href="index.html"> <img src="images/icon.png" alt="logo" height="80"> </a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="brose.html" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Browse
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="list.html">List</a>
+                            <a class="dropdown-item" href="recommendations.html">Recommendations</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+<h1>Added to your list</h1>
+    <div class="movie_card" id="tomb">
+        <div class="info_section">
+            <div class="movie_header">
+                <img class="mv" src="images/list3.jpg"/>
+                <h1>SMILE</h1>
+                <h4>2023, Parker Finn</h4>
+                <span class="minutes">1hr 55mins</span>
+                <p class="type">Horror</p>
+            </div>
+            <div class="movie_desc">
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et imperdiet augue. Donec sit amet est at dui placerat iaculis. Maecenas feugiat interdum sapien non interdum. Maecenas molestie dapibus porta. Proin a ultrices mauris. Donec quis tellus vel sapien porttitor pharetra non et ex. Nulla urna tellus, accumsan sit amet vehicula vitae, facilisis et risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer non aliquet orci, vel volutpat libero. Integer lobortis libero in ligula mattis scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                </p>
+            </div>
+            <div class="movie_social">
+                <ul>
+                    <li><i class="material-icons">share</i></li>
+                    <li><i class="material-icons">like</i></li>
+                    <li><i class="material-icons">add review</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="movie_card" id="tomb">
+    <div class="info_section">
+        <div class="movie_header">
+            <img class="mv" src="images/list2.jpg"/>
+            <h1>Bohemian Raphsody</h1>
+            <h4>2018,  Bryan Singer</h4>
+            <span class="minutes">2hrs 15mins</span>
+            <p class="type">Musical/Documentary</p>
+        </div>
+        <div class="movie_desc">
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et imperdiet augue. Donec sit amet est at dui placerat iaculis. Maecenas feugiat interdum sapien non interdum. Maecenas molestie dapibus porta. Proin a ultrices mauris. Donec quis tellus vel sapien porttitor pharetra non et ex. Nulla urna tellus, accumsan sit amet vehicula vitae, facilisis et risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer non aliquet orci, vel volutpat libero. Integer lobortis libero in ligula mattis scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            </p>
+        </div>
+        <div class="movie_social">
+            <ul>
+                <li><i class="material-icons">share</i></li>
+                <li><i class="material-icons">like</i></li>
+                <li><i class="material-icons">add review</i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="movie_card" id="ave">
+    <div class="info_section">
+        <div class="movie_header">
+            <img class="mv" src="images/list1.jpg"/>
+            <h1>US</h1>
+            <h4>2019, Jordan Peele</h4>
+            <span class="minutes">2hrs 1min</span>
+            <p class="type">Mystery/Horror</p>
+        </div>
+        <div class="movie_desc">
+            <p class="text">
+                Etiam a nibh egestas, lacinia dui eget, finibus odio. Suspendisse aliquam odio nec semper lacinia. Ut velit orci,
+                mattis non nibh at, pharetra fermentum enim. Duis quis
+                tempor justo, sit amet volutpat sem. Sed laoreet mauris in velit finibus dapibus nec id nisi. Suspendisse eu fermentum ligula,
+                sagittis suscipit ligula. Nam venenatis risus vitae pellentesque pellentesque. Nulla mattis tincidunt lorem et cursus. Aliquam erat volutpat.
+                Aenean vel neque tristique, iaculis enim eu, placerat mi.
+            </p>
+        </div>
+        <div class="movie_social">
+            <ul>
+                <li><i class="material-icons">share</i></li>
+                <li><i class="material-icons">like</i></li>
+                <li><i class="material-icons">add review</i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer class="footer page-footer font-large">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Jolie Saleb, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+</html>
